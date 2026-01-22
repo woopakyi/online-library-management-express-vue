@@ -12,6 +12,54 @@ The project was developed in three progressive stages:
 2. Separation into RESTful API backend + Vue 3 (Composition API) frontend with pagination, search, filters
 3. Addition of JWT authentication, role-based authorization (Admin / Normal User), book borrowing/returning, admin user management
 
+
+## Features Implemented
+
+- Responsive UI (desktop + mobile)
+- Book CRUD operations (Admin only)
+- Advanced search, filters, sorting & pagination
+- Highlighted / latest / trending / hot books on homepage
+- Book borrowing & returning (authenticated users)
+- Admin-only user management (CRUD)
+- JWT-based login + protected routes/endpoints
+- Form validation, error handling, loading states
+
+
+## Screenshots of User Panel (Desktop & Mobile View)
+Note that Desktop View is on the left while Mobile View is on the right.
+
+
+### Homepage
+<img src="images/user_homepage_desktop.png" width="45%">  |  <img src="images/user_homepage_mobile.png" width="15%">
+
+### Login Page
+<img src="images/user_login_desktop.png" width="45%">  |  <img src="images/user_login_mobile.png" width="20%">
+
+### Overview of Books
+<img src="images/user_books_desktop.png" width="45%">  |  <img src="images/user_books_mobile.png" width="45%">
+
+### Book Details
+
+<img src="images/user_book_detail_desktop.png" width="45%">  |  <img src="images/user_book_detail_mobile.png" width="15.4%">
+
+## Screenshots of Admin Panel
+### Booking Record
+<img src="images/admin_record.png" width="45%">
+
+### Books Adding and Editing
+<img src="images/admin_book-add.png" width="45.5%">  |  <img src="images/admin-book-edit.png" width="45%">
+
+
+## Project Structure
+
+```
+├── backend/          # Express API + MongoDB logic
+├── frontend/         # Vue 3 single-page application
+├── images/      # Demo images
+└── README.md
+```
+
+
 ## Tech Stack
 
 **Backend**
@@ -26,26 +74,6 @@ The project was developed in three progressive stages:
 - Fetch API + JWT token handling
 - Bootstrap 5 (responsive layout)
 - Oruga UI (`o-table`) for data tables (users & borrow history)
-
-## Features Implemented (Learning Objectives)
-
-- Responsive UI (desktop + mobile)
-- Book CRUD operations (Admin only)
-- Advanced search, filters, sorting & pagination
-- Highlighted / latest / trending / hot books on homepage
-- Book borrowing & returning (authenticated users)
-- Admin-only user management (CRUD)
-- JWT-based login + protected routes/endpoints
-- Form validation, error handling, loading states
-
-## Project Structure
-
-```
-├── backend/          # Express API + MongoDB logic
-├── frontend/         # Vue 3 single-page application
-├── images/      # Demo images
-└── README.md
-```
 
 ## Setup & Run Locally
 
@@ -78,30 +106,6 @@ Frontend is available at: `http://localhost:5173`
 - Build frontend: `cd frontend && npm run build`
 - Serve from backend or separately (Vercel / Netlify / Render)
 
-## Screenshots of Normal User Panel
-Note that Desktop View is on the left while Mobile View is on the right.
-
-### Login Page
-
-<img src="images/user-account-login.png" width="45%">
-
-### Homepage (with carousel and sections)
-<img src="images/homepage.png" width="45%">
-
-### Overview of Books
-<img src="images/books.png" width="45%">
-
-### Book Details
-
-<img src="images/books-detail_web.png" width="45%">  <img src="images/books-detail_phone.png" width="15.4%">
-
-## Screenshots of Admin Panel
-### Booking Record
-<img src="images/admin_record.png" width="45%">
-
-### Books Adding and Editing
-<img src="images/admin_book-add.png" width="45.5%">  <img src="images/admin-book-edit.png" width="45%">
-
 ### User Management
 <img src="images/admin_user-management1.png" width="45%">  <img src="images/admin_user-management2.png" width="51.9%">
 
@@ -110,6 +114,3 @@ Note that Desktop View is on the left while Mobile View is on the right.
 Built as part of **COMP3047** coursework – for educational purposes only.
 - Backend [GitHub](https://github.com/UG-CS-HKBU/comp3047-fall2024-express-template)
 - Frontend: [GitHub](https://github.com/UG-CS-HKBU/comp3047-fall2024-vue-template)
-
-
-
