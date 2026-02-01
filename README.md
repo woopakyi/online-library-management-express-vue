@@ -24,13 +24,13 @@ Note that Desktop View is on the left while Mobile View is on the right.
 
 
 ### Homepage
-<img src="images/user_homepage_desktop.png" width="50%">  |  <img src="images/user_homepage_mobile.png" width="25%">
+<img src="images/user_homepage_desktop.png" width="75%">  |  <img src="images/user_homepage_mobile.png" width="20%">
 
 ### Login Page
-<img src="images/user_login_desktop.png" width="50%">  |  <img src="images/user_login_mobile.png" width="25%">
+<img src="images/user_login_desktop.png" width="75%">  |  <img src="images/user_login_mobile.png" width="23%">
 
 ### Overview of Books
-<img src="images/user_books_desktop.png" width="50%">  |  <img src="images/user_books_mobile.png" width="8.1%">
+<img src="images/user_books_desktop.png" width="75%">  |  <img src="images/user_books_mobile.png" width="5%">
 
 ### Book Details
 
@@ -38,13 +38,13 @@ Note that Desktop View is on the left while Mobile View is on the right.
 
 ## Screenshots of Admin Panel
 ### Booking Record
-<img src="images/admin_record.png" width="50%">
+![Booking Record](images/admin_record.png)
 
 ### Books Adding and Editing
-<img src="images/admin_book_add.png" width="45.5%">  |  <img src="images/admin_book_edit.png" width="45%">
+<img src="images/admin_book_add.png" width="48%">  |  <img src="images/admin_book_edit.png" width="48%">
 
 ### Account Management
-  <img src="images/admin_account_overview.png" width="45%">  |  <img src="images/admin_account_management.png" width="52%">
+  <img src="images/admin_account_overview.png" width="48%">  |  <img src="images/admin_account_management.png" width="48%">
 
 ## Tech Stack
 
