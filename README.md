@@ -27,7 +27,7 @@ Note that Desktop View is on the left while Mobile View is on the right.
 <img src="images/user_homepage_desktop.png" width="75%">  |  <img src="images/user_homepage_mobile.png" width="20%">
 
 ### Login Page
-<img src="images/user_login_desktop.png" width="75%">  |  <img src="images/user_login_mobile.png" width="23%">
+<img src="images/user_login_desktop.png" width="75%">  |  <img src="images/user_login_mobile.png" width="20%">
 
 ### Overview of Books
 <img src="images/user_books_desktop.png" width="75%">  |  <img src="images/user_books_mobile.png" width="5%">
